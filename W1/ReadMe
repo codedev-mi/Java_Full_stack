@@ -1,0 +1,11 @@
+Week 1: Core Java + OOP
+
+Goal: Learn Java basics and object-oriented programming.
+
+Steps: 
+1. Install Java & IDE (IntelliJ or Eclipse) 
+2. Learn variables, data types, conditionals, loops 
+3. Understand classes, objects, methods, constructors
+
+Task: Create a simple Student Management System in the console using OOP.
+Use OOP's concept to implement functionality like Add Students, Show Students, Update Students, Delete Students, Search Students.
