@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #F5FAE1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: backgroundColorChange 5s infinite;
+}
+@keyframes backgroundColorChange {
+   30% { background-color: #ECEEDF; }
+  60% { background-color: #EEE6CA; }
+  90% { background-color: #E8D4B7; }
+}
+
+.container {
+  background-color: #F9F3EF;
+  margin: 10px 30px 10px 20px;
+  padding: 20px;
+  width: 500px;
+  height: 85%;
+  border: 1px solid #896C6C;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /*overflow-y: auto;*/
+}
+
+h2 {
+  font-weight: 700; 
+  text-align: center;
+  font-size: 24px;  
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom:15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.gender {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+
+.gender label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: normal;
+}
+
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #660B05;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #3E0703;
+}
