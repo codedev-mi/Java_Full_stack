@@ -46,7 +46,7 @@ label {
   color: #333;
 }
 
-input {
+input, textarea {
   width: 100%;
   padding: 10px;
   margin-bottom:15px;
@@ -83,3 +83,4 @@ button {
 button:hover {
   background-color: #3E0703;
 }
+
