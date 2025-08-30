@@ -1,0 +1,10 @@
+Week 3: Java Backend with Servlets + JSP
+
+Goal: Build server-side Java applications.
+
+Steps:
+1. Install Apache Tomcat or use Eclipse’s built-in server
+2. Learn to write Servlets and use JSP (Java Server Pages)
+3. Handle form submissions, send responses
+
+Task: Connect your HTML form to a Java Servlet and show results via JSP.
